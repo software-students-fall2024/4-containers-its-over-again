@@ -4,7 +4,7 @@ Test script to verify MongoDB connection
 
 from database import db
 
-test_collection = db['test_collection']
+test_collection = db["test_collection"]
 
 # Insert a test document
 test_collection.insert_one({"message": "Hello from MongoDB!"})
