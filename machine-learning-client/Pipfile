@@ -33,11 +33,8 @@ pytest = "==8.3.3"
 tomlkit = "==0.13.2"
 
 [dev-packages]
-pylint = "*"
-coverage = "*"
-pytest = "*"
-pymongo = "*"
 black = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.13"
